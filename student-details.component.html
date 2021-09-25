@@ -1,0 +1,37 @@
+<div class="con">
+<div class="container">
+    <div class="row">
+        <div class="">
+            <h3 style="color:  rgb(32, 2, 168); background-color: black; text-align: left;">Student Details</h3>
+            <table class="table table-striped table-dark table-lg" style="border: 2pc;">
+                    <ul>
+                        <th>firstname</th>
+                        <th>Lastname</th>
+                        <th>Grade</th>
+                        <th>BirthDate</th>
+                        <th>Gender</th>
+                        <th>Email</th>
+                        <th>Mobile No</th>
+                        <th>Address</th>
+                        <li *ngFor="let i of data">
+                        <tr>
+                            <td cellspacing="20">{{i.fname}}</td>
+                            <td cellspacing="20">{{i.lname}}</td>
+                            <td cellspacing="20">{{i.grade}}</td>
+                            <td cellspacing="20">{{i.dob}}</td>
+                            <td cellspacing="20">{{i.gender}}</td>
+                            <td cellspacing="20">{{i.email}}</td>
+                            <td cellspacing="20">{{i.MobNo}}</td>
+                            <td cellspacing="20">{{i.Address}}</td>
+                        </tr>
+                        </li>
+                    </ul>
+                
+              </table>
+              <div style="text-align: center;">
+              <button (click)="callserver()" class="btn btn-success" >Show</button>
+              </div>
+        </div>
+    </div>
+</div>
+

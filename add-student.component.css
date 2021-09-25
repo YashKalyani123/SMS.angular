@@ -1,0 +1,19 @@
+.con{
+    background-color: rgba(0, 0, 0, 0.616);
+    border: 3px solid green;
+}
+
+input.ng-invalid{
+    border-color: red;
+    border-radius: 10px;
+}
+
+input.ng-untouched{
+    border-color:blue;
+    border-radius: 10px;
+}
+
+input.ng-valid{
+    border-color: green;
+    border-radius: 10px;
+}
